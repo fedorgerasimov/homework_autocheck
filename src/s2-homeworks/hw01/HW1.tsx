@@ -1,7 +1,7 @@
 import React from 'react'
 import Message from './message/Message'
 import MessageSender from './message-sender/MessageSender'
-import s2 from '../../s1-main/App.module.css'
+import s1 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
 
@@ -52,11 +52,11 @@ export const friendMessage0: MessageType = {
 
 const HW1 = () => {
     return (
-        <div className={s2.container}>
+        <div className={s1.container}>
             <div id={'hw1'}>
-                <div className={s2.hwTitle}>Homework #1</div>
-                <hr className={s2.hr}/>
-                <div className={s2.hw}>
+                <div className={s1.hwTitle}>Homework #1</div>
+                <hr className={s1.hr}/>
+                <div className={s1.hw}>
                     {/*проверка отображения (не менять)*/}
                     <div>
                         <Message message={message0}/>
